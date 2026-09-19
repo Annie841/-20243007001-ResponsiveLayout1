@@ -1,11 +1,11 @@
 <resources>
-    <string name="app_name">MyApplication1</string>
+    <string name="app_name">MyApplication5</string>
     <string name="lab1">Lab1</string>
     <string name="responsive_layout">Responsive Layout 1</string>
     <string name="txt_this">This</string>
-    <string name="is">is</string>
-    <string name="my">my</string>
-    <string name="first">first</string>
+    <string name="is">Is</string>
+    <string name="my">My</string>
+    <string name="first">First</string>
     <string name="android_application">Android Application</string>
     <string name="change">Change</string>
     <string name="cancel">Cancel</string>

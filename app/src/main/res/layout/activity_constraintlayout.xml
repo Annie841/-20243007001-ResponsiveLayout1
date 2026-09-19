@@ -8,7 +8,7 @@
     android:background="#000000"
     tools:context=".MainActivity">
 
-    <!-- 1. Top: Lab1 -->
+    <!-- 1. Top: Lab1 【竖向链第一个，添加chainStyle】 -->
     <TextView
         android:id="@+id/tvLab"
         android:layout_width="0dp"
@@ -40,6 +40,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintVertical_weight="1"/>
+
     <!-- 3. Four colour horizontal bar (Inner ConstraintLayout) -->
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/layoutFourColor"
@@ -103,6 +104,7 @@
             app:layout_constraintStart_toEndOf="@id/tvMy"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_weight="1"/>
+
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <!-- 4. Android Application text -->
@@ -119,6 +121,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintVertical_weight="1.6"/>
+
     <!-- 5. Bottom button container (Inner ConstraintLayout) -->
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/layoutButtons"
@@ -156,8 +159,7 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toEndOf="@id/btnChange"
             app:layout_constraintEnd_toEndOf="parent"/>
+
     </androidx.constraintlayout.widget.ConstraintLayout>
-
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>
