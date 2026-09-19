@@ -8,7 +8,7 @@
     android:background="#000000"
     tools:context=".MainActivity">
 
-    <!-- 1. Top: Lab1 【竖向链第一个，添加chainStyle】 -->
+    <!-- 1. Top: Lab1  -->
     <TextView
         android:id="@+id/tvLab"
         android:layout_width="0dp"
